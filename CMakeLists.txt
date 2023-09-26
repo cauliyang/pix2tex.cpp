@@ -11,17 +11,16 @@ project(
 # Dependencies
 find_package(fmt REQUIRED)
 
-
 # Add third-party dependencies
 add_subdirectory(third-party/ggml)
 
-
 # Source files
-set(SOURCE_FILES nougat.cpp)
+set(SOURCE_FILES source/nougat.cpp)
 
 # Executable
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 # Link Libraries
+target_include_directories(${PROJECT_NAME} PRIVATE include)
 target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt ggml)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
