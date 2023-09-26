@@ -10,7 +10,7 @@ project(
 
 # Dependencies
 find_package(fmt REQUIRED)
-
+find_package(imgui REQUIRED)
 # Add third-party dependencies
 add_subdirectory(third-party/ggml)
 
@@ -22,5 +22,5 @@ add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 # Link Libraries
 target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt ggml)
+target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt imgui::imgui ggml)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
