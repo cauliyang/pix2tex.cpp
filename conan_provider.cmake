@@ -1,3 +1,6 @@
+# This file is managed by Conan, contents will be overwritten.
+# To keep your changes, remove these comment lines, but the plugin won't be able to modify your requirements
+
 set(CONAN_MINIMUM_VERSION 2.0.5)
 
 
