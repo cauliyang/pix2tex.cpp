@@ -4,6 +4,7 @@
 
 #ifndef MODLE_H
 #define MODLE_H
+#include <ggml.h>
 
 class modle {};
 

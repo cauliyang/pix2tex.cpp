@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.26)
 project(
   pix2tex
   VERSION 1.0
-  DESCRIPTION "A C++ GUI implementation of pix2tex."
+  DESCRIPTION "A C++ implementation of pix2tex."
   LANGUAGES CXX)
 
 # Dependencies
@@ -24,5 +24,5 @@ add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 # Link Libraries
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_EXTENSIONS OFF)
 target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt imgui::imgui ggml)
+target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt ggml)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)

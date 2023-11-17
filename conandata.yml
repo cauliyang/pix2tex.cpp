@@ -3,4 +3,4 @@
 
 requirements:
   - "fmt/10.1.1"
-  - "imgui/cci.20230105+1.89.2.docking"
+  - "doctest/2.4.11"

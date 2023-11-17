@@ -4,6 +4,5 @@
 #include "ui.h"
 
 #include <fmt/format.h>
-#include <imgui.h>
 
 void test() { fmt::print("Hello, world!\n"); }
