@@ -14,4 +14,5 @@ repos:
         exclude: \.(cp?p?$|output)
       - id: check-docstring-first
       - id: check-added-large-files
+        args: ["--maxkb=100000"]
       - id: check-yaml
