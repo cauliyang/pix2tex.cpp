@@ -77,3 +77,4 @@ Release/
 .idea
 cmake-*
 .cache
+compile_commands.json
