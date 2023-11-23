@@ -1,5 +1,5 @@
-# Nougat
+# pix2tex.cpp
 
-- nougat
+- pix2tex
 - ggml
 - gui

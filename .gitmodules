@@ -1,3 +1,6 @@
 [submodule "third-party/ggml"]
 	path = third-party/ggml
 	url = https://github.com/ggerganov/ggml
+[submodule "third-party/fmt"]
+	path = third-party/fmt
+	url = https://github.com/fmtlib/fmt
