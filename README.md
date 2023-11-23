@@ -3,3 +3,4 @@
 - pix2tex
 - ggml
 - gui
+- llama
